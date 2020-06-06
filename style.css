@@ -1,0 +1,103 @@
+  body {
+    margin: 0; text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+    background-image: url(img/prueba2.png), url(img/prueba2.png), url(img/prueba2.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    position: absolute, relative, absolute;
+    background-position: top left, center, bottom right;
+  }
+
+  code {font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;}
+  h1{font-family: 'Fredericka the Great', cursive; color: #9C0757; font-size:12vw;}
+  h2{font-family: 'Gloria Hallelujah', cursive; color: #404040; font-size:5vw;}
+  h3 { color: #000000; font-size: 32px; text-transform: uppercase; margin:0px; margin-bottom: 20PX;}
+  h4 { font-size: 24px; color: #303030; font-weight: 600; margin:0px;}
+  h5 { font-size: 19px; line-height: 1.375em; color: #303030; font-weight: 400; margin-bottom: 10px;}
+  h6{ font-size: 14px; margin: 0px; }
+  p { font-family: Montserrat, sans-serif; font-size: 13.5px;}
+
+/*LOGO AREA*/
+.web-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+/*MENÚ*/
+  ul{padding-inline-start: 0px;}
+  .navbar { color: black; background-color: #fff; font-family: Montserrat, sans-serif; font-size: 12px;
+    line-height: 1.42857143; letter-spacing: 2px; margin-bottom: 0; margin-top: 50px; z-index: 999;}
+  .navbar-nav { width: 100%!important; text-align: center!important; list-style-type: none;
+    display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;}
+  a.nav-link {color: black; text-align: center; padding: 15px; }
+  a.nav-link:hover, a.nav-link:active {color: white;}
+  li.nav-item {text-decoration: none;}
+  a.nav-link:hover {background-color: #cc0066; transform:scale(1.10); text-decoration-line: none;}
+  a.nav-link:active{background-color: #cc0066; transform:scale(1); text-decoration-line: none;}
+
+/*SECCIONES AREAS*/
+  .sectionText{background-color: rgb(255,255,255,0.5); padding:1vw;}
+
+/*TIENDANUBE*/
+#img-nubebanner{}
+#img-nubebannermini00, #img-nubebannermini01{display: none;}
+
+/*CIRCLES AREAS*/
+  .circlesArea{ min-height: 100vh; padding: 5vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: rgb(255,255,255); }
+  .circlesCardArea{ display: flex; flex-direction: row; align-items: center; justify-content: center; flex-wrap: wrap; }
+  .card { width: 200px; min-height: 200px;  margin: 0vw 3vw 0vw 3vw; justify-content: center; align-items: center; border-color: white;}
+  .cardimgarea { width: 90%; height: 10vw; margin: auto; justify-content: center; align-items: center; z-index: 0}
+  .card-img { width: 100% }
+  .cardTextArea { width: 100%; margin: auto; background-color: white; opacity: 0.8;  z-index: 1; padding: 8px;}
+
+/*CLIENTES AREA*/
+  .clientesSeccion { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .clientesSectionsItems { display: flex; flex-direction: row; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 30px;}
+  .clientesItemsImg { width: 125px; }
+
+/*CONTACTO AREA*/
+  .contactsection{ min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: white;
+    background-image: url(img/fondoContact.png); background-repeat: no-repeat; background-position:left;}
+  .contactitemsection{ margin-top: 30px; margin-bottom: 35px; display: flex; flex-direction: row; align-items: center;
+    justify-content: center; flex-wrap: wrap; }
+  .contactitem{ margin-right: 30px; margin-left: 30px; }
+  .material-icons{ color: #9C0757;font-size:50px; border: 0px solid #000000; margin-bottom: 15px; padding: 15px;
+    border-radius: 200px 200px 200px 200px; -moz-border-radius: 200px 200px 200px 200px; -webkit-border-radius: 200px 200px 200px 200px; }
+  .material-icons-2{  background-color: #FFCF00; border: 0px solid #000000; margin-bottom: 15px; padding: 15px;
+    border-radius: 200px 200px 200px 200px; -moz-border-radius: 200px 200px 200px 200px; -webkit-border-radius: 200px 200px 200px 200px; }
+
+
+/*FOOTER*/
+  footer{background-color:black; color:white;}
+  p.txt-footer{margin-bottom: 5px;}
+  #cogido-qr{width: 80px; margin-top: 5px;}
+
+/*RESPONSIVE AREA*/
+  @media only screen and (min-width: 768px) {
+    #img-logo {width: 50vw; pointer-events: none;}
+    .sectionImg{width: 60vh;}
+    /*SECCIONES AREAS*/
+    section{ min-height: 100vh; margin-left: 5vw; margin-right: 5vw; display: flex; flex-direction: row; align-items: center; justify-content: center; }
+    .sectionText{ text-align: left; }
+  }
+  @media only screen and (max-width: 767px) {
+    #img-logo { width: 100vw; pointer-events: none;}
+    .sectionImg{width: 30vh;}
+    /*SECCIONES AREAS*/
+    section{ display: flex; margin-top: 12vh; margin-bottom: 12vh; flex-direction: column; align-items: center;       
+      justify-content: center; align-self: center;}
+    .sectionText{ text-align: center; width: 90vw; align-items: center;}
+    /*BANNER TIENDANUBE*/
+    #img-nubebanner, #img-nubebannermini00{display: none;}
+    #img-nubebannermini01{display: initial;}
+  }
+
+  @media screen and (max-width: 374px) {
+    /*BANNER TIENDANUBE*/
+    #img-nubebanner, #img-nubebannermini01{display: none;}
+    #img-nubebannermini00{display: initial;}
+    }
