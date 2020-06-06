@@ -1,0 +1,11 @@
+User-agent: Googlebot-Image
+Disallow: /img/banner01.jpg
+
+User-agent: Googlebot-Image
+Disallow: /img/bannermini01.jpg
+
+User-agent: Googlebot
+Disallow: /servicios/
+Allow: /
+
+Sitemap: https://www.merakisolution.net/sitemap.xml
