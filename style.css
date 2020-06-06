@@ -57,7 +57,7 @@
 /*CLIENTES AREA*/
   .clientesSeccion { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; }
   .clientesSectionsItems { display: flex; flex-direction: row; align-items: center; justify-content: center; flex-wrap: wrap; margin-top: 30px;}
-  .clientesItemsImg { width: 125px; }
+  .clientesItemsImg { width: 125px; background-color:white;}
 
 /*CONTACTO AREA*/
   .contactsection{ min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: white;
