@@ -85,8 +85,8 @@
     .sectionText{ text-align: left; }
   }
   @media only screen and (max-width: 767px) {
-    body{margin-right: 1vw; margin-left:1vw;}
-    .web-header{margin-right: 0px; margin-left:0px;}
+    body{padding-right: 1vw; padding-left:1vw;}
+    .web-header{padding-right: 0px!important; padding-left:0px;!important}
     h3{margin-top:40px;}
     #img-logo { width: 100vw; pointer-events: none;}
     .sectionImg{width: 30vh;}
@@ -97,6 +97,8 @@
     /*BANNER TIENDANUBE*/
     #img-nubebanner, #img-nubebannermini00{display: none;}
     #img-nubebannermini01{display: initial;}
+    /*CONTACTO*/
+    .contactItem{padding-right: 5px; padding-left:5px;}
   }
 
   @media screen and (max-width: 374px) {
